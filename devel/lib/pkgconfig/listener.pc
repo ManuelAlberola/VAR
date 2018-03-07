@@ -1,8 +1,0 @@
-prefix=/home/manuel/Escritorio/VAR/catkin_ws/devel
-
-Name: listener
-Description: Description of listener
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/manuel/Escritorio/VAR/catkin_ws/devel/lib 
-Requires: 
