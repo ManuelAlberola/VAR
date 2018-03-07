@@ -1,0 +1,22 @@
+Extracción de imágenenes.
+
+Ya está creado el paquete listener y estamos suscritos a él.
+En primer lugar iniciamos ros en un terminal:
+  $roscore
+Esto dejará ros ejecutando.
+
+
+Para tomar una imagen primero tenemos que lanzar gazebo. En otro terminal distinto:
+  #Desde el workspace /../catkin_ws/
+  $catkin_make
+  $source devel/setup.bash
+  $roslaunch turtlebot_gazebo_multiple create_multi_robot.launch
+Esto abrirá una ventana con gazebo, el mundo donde trabajaremos y la tortuga.
+
+
+A continuación ejecutamos el listener
+  #Desde el workspace /../catkin_ws/
+  $source devel/setup.bash
+  $rosrun listener listener
+Esto tomará una imagen de lo que ve la tortuga. El código que se encarga de esto está en:
+/.../catkin_ws/src/listener/src
