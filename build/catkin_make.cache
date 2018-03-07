@@ -1,0 +1,2 @@
+listener:teleop_twist_keyboard:turtlebot_gazebo_multiple:turtlebot_simulator/turtlebot_gazebo:turtlebot_simulator/turtlebot_simulator:turtlebot_simulator/turtlebot_stage:turtlebot_simulator/turtlebot_stdr:wander
+-DCATKIN_DEVEL_PREFIX=/home/manuel/Escritorio/VAR/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/manuel/Escritorio/VAR/catkin_ws/install -G Unix Makefiles
