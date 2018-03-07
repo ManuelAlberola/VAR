@@ -1,0 +1,10 @@
+Usos del repositorio.
+
+El fichero .gitignore contiene las carpetas build y devel.
+Estas se generan al compilar el proyecto. Para ello:
+  catkin_make
+
+A continuación lincamos las librerías:
+  source devel/setup.bash
+
+Todo listo. 
